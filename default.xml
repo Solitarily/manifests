@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Solitarily/platform_build" remote="github" groups="pdk,tradefed" >
+  <project path="build" name="Solitarily/platform_build" remote="private" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -75,7 +75,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="Solitarily/android_external_busybox"  remote="github" />
+  <project path="external/busybox" name="Solitarily/android_external_busybox"  remote="private" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -197,7 +197,7 @@
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
-  <project path="external/libtar" name="Solitarily/android_external_libtar"  remote="github" />
+  <project path="external/libtar" name="Solitarily/android_external_libtar"  remote="private" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" />
@@ -285,7 +285,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="Solitarily/platform_frameworks_base"  remote="github" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="Solitarily/platform_frameworks_base"  remote="private" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
